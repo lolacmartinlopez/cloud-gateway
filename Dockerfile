@@ -10,7 +10,7 @@
 # Exponemos el puerto que nuestro componente va a usar para escuchar peticiones
 # Copiamos desde "build" el JAR generado (la ruta de generacion es la misma que veriamos en local) y lo movemos y renombramos en destino como 
 # Marcamos el punto de arranque de la imagen con el comando "java -jar app.jar" que ejecutará nuestro componente.
-FROM openjdk:8
+FROM openjdk:17
 EXPOSE 8762
-COPY --from=build /target/gateway-0.0.1-SNAPSHOT.jar app.jar
+ADD /target /root
 ENTRYPOINT ["java", "-jar", "/cloudgateway.jar"]
