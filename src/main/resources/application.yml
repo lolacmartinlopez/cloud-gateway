@@ -5,7 +5,7 @@ server:
 eureka:
   instance:
     preferIpAddress: false
-    hostname: ${HOSTNAME:eureka-production-grupo2-202324}
+    hostname: ${HOSTNAME:localhost}
     
   client:
     registerWithEureka: true
