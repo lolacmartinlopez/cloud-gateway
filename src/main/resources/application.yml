@@ -11,7 +11,7 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: ${EUREKA_URL:eureka-production-grupo2-202324.up.railway.app}
+      defaultZone: ${EUREKA_URL:https://eureka-production-grupo2-202324.up.railway.app}
       
 
 ## Habilitamos el service discovery (haciendo uso de Eureka)
