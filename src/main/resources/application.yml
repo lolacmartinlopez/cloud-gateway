@@ -6,7 +6,7 @@ eureka:
   instance:
   
     preferIpAddress: true
-    hostname: ${HOSTNAME:cloud-gateway-production-grupo2-202324}
+    hostname: ${HOSTNAME:localhost}
     non-secure-port-enable: false
     secure-port-enable: true
     non-secure-port: 80
