@@ -1,7 +1,7 @@
 server:
   port: 8762
         
-## Configuracion clasica de Eureka
+## Configuracion clasica de Eureka (HOSTNAME)
 eureka:
   instance:
   
