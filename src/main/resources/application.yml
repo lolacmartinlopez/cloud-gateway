@@ -5,7 +5,7 @@ server:
 eureka:
   instance:
   
-    preferIpAddress: false
+    preferIpAddress: true
     hostname: ${HOSTNAME:cloud-gateway-production-grupo2-202324.up.railway.app}
     non-secure-port-enable: false
     secure-port-enable: true
