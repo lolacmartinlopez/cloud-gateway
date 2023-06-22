@@ -7,8 +7,8 @@ eureka:
   
     preferIpAddress: true
     hostname: ${HOSTNAME:localhost}
-    non-secure-port-enable: false
-    secure-port-enable: true
+    non-secure-port-enable: true
+    secure-port-enable: false
     non-secure-port: 80
     secure-port: 443
     
